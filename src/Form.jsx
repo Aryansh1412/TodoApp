@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Form({ setTodos, todos, id, setId }) {
-  const [title, setTitle] = useState("3");
+  const [title, setTitle] = useState("Add Title");
   const [description, setDescription] = useState();
   const handleSubmit = (e) => {
     e.preventDefault();
